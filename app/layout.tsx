@@ -14,7 +14,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "شنايدر | كاميرات وكهرباء وشبكات",
-  description: "شنايدر للحلول الأمنية والكهربائية – كاميرات، كهرباء، شبكات، ستلايت",
+  description:
+    "شنايدر للحلول الأمنية والكهربائية – كاميرات، كهرباء، شبكات، ستلايت",
+  icons: {
+    icon: "/login.png", // أو /icon.png إذا تستخدم png
+  },
 };
 
 export default function RootLayout({
